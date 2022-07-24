@@ -18,7 +18,6 @@
     grid-row: 1 / 3;
     grid-template-rows: 1fr 2fr 5fr;
     justify-items: start;
-    
 }
 
 .buttons {
@@ -31,6 +30,11 @@
 .buttons button {
     margin: 8px;
     padding: 8px;
+}
+
+.buttons h2 {
+    display: flex;
+    align-items: center;
 }
 
 .header {
