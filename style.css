@@ -92,6 +92,8 @@ img:hover, h3:hover, .card h2:hover {
 
 .search input {
     width: 300px;
+    height: 24px;
+    background-color:#bae6fd;
 }
 
 .top-right {
