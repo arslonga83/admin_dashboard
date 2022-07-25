@@ -12,7 +12,7 @@
 }
 
 .sidebar {
-    background-color: blue;
+    background-color: #38bdf8;
     padding: 24px;
     display: grid;
     grid-row: 1 / 3;
@@ -43,7 +43,7 @@
 }
 
 .header {
-    background-color: red;
+    background-color: #0284c7;
     display: grid;
     grid-template-rows: 1fr 1fr;
     padding: 8px;
@@ -72,6 +72,7 @@
 
 .top-right img {
     width: 1.5rem;
+    border-radius: 50%;
 }
 
 .row2 {
@@ -80,21 +81,32 @@
     align-items: center;
 }
 
+.row2 img {
+    width: 50px;
+    border-radius: 50%;
+}
 .name {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 2fr;
     gap: 8px;
+    
 }
 
-.name h2 {
+.name img {
     display: grid;
-    grid-rows: 1 / 3;
+    grid-row: 1 / 3;
+    margin: 8px;
 }
 
 .name p, .name h1 {
     display: grid;
     grid-column: 2 / 3;
+}
+
+.name p {
+    display: grid;
+    align-items: end;
 }
 
 .header-buttons button {
@@ -103,9 +115,10 @@
 }
 
 .main {
-    background-color: green;
+    background-color: #bae6fd;
     display: grid;
     grid-template-columns: 2fr 1fr;
+    padding: 24px;
 }
 
 .cards {
@@ -113,15 +126,32 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 3fr 3fr 3fr;
     justify-content: center;
+    gap: 8px;
+    margin: 8px;
 }
 
 .cards h1 {
     display: grid;
     grid-column: 1 / 3;
+    
+}
+
+.card {
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 8px;
+    
+    
 }
 
 .extra {
     display: grid;
     grid-template-rows: 1fr 3fr 1fr 3fr;
+    padding: 8px;
 }
 
+.announcements, .trending {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px;
+}
