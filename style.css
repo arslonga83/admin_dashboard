@@ -68,6 +68,7 @@
     display: flex;
     gap: 24px;
     align-items: center;
+    
 }
 
 .top-right img {
@@ -112,6 +113,7 @@
 .header-buttons button {
     padding: 8px;
     margin: 8px;
+    font-size: 1.25rem;
 }
 
 .main {
