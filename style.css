@@ -47,6 +47,20 @@
     padding: 8px;
 }
 
+.buttons h2:hover {
+    color:#bae6fd;
+    cursor: pointer;
+}
+
+.header-buttons button:hover {
+    background-color:#38bdf8;
+    cursor: pointer;
+}
+
+img:hover, h3:hover, .card h2:hover {
+    cursor: pointer;
+}
+
 .buttons h2 {
     display: flex;
     align-items: center;
