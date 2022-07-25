@@ -27,6 +27,11 @@
     margin: 16px;
 }
 
+.buttons img {
+    width: 1.75rem;
+    padding-right: 8px;
+}
+
 .buttons button {
     margin: 8px;
     padding: 8px;
@@ -55,10 +60,18 @@
     align-items: center;
 }
 
+.search img {
+    width: 1.5rem;
+}
+
 .top-right {
     display: flex;
     gap: 24px;
     align-items: center;
+}
+
+.top-right img {
+    width: 1.5rem;
 }
 
 .row2 {
