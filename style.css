@@ -71,6 +71,7 @@ img:hover, h3:hover, .card h2:hover {
     display: grid;
     grid-template-rows: 1fr 1fr;
     padding: 8px;
+    padding-right: 36px;
     height: 150px;
 }
 
