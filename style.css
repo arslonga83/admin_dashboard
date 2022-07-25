@@ -91,5 +91,24 @@
 
 .main {
     background-color: green;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 3fr 3fr 3fr;
+    justify-content: center;
+}
+
+.cards h1 {
+    display: grid;
+    grid-column: 1 / 3;
+}
+
+.extra {
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr 3fr;
 }
 
