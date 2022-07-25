@@ -5,7 +5,7 @@
 
 .container {
     display: grid;
-    grid-template-columns: minmax(300px, 1fr) 5fr;
+    grid-template-columns: minmax(225px, 1fr) 5fr;
     grid-template-rows: 1fr 5fr;
     height: 100vh;
     width: 100vw;
@@ -73,7 +73,6 @@
     display: flex;
     gap: 24px;
     align-items: center;
-    
 }
 
 .top-right img {
@@ -91,12 +90,12 @@
     width: 4rem;
     border-radius: 50%;
 }
+
 .name {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 2fr;
     gap: 8px;
-    
 }
 
 .name img {
@@ -135,7 +134,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 3fr 3fr 3fr;
     justify-content: center;
-    gap: 8px;
+    gap: 16px;
     margin: 8px;
 }
 
@@ -156,4 +155,5 @@
     display: grid;
     grid-template-rows: 1fr 3fr 1fr 3fr;
     padding: 8px;
+    gap: 16px;
 }
