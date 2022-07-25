@@ -119,6 +119,8 @@
     padding: 8px;
     margin: 8px;
     font-size: 1.25rem;
+    border-radius: 8px;
+    background-color:#bae6fd;
 }
 
 .main {
@@ -143,22 +145,15 @@
     
 }
 
-.card {
+.card, .announcements, .trending {
     border: 1px solid black;
     padding: 8px;
     border-radius: 8px;
-    
-    
+    border-left: 4px solid #0284c7
 }
 
 .extra {
     display: grid;
     grid-template-rows: 1fr 3fr 1fr 3fr;
-    padding: 8px;
-}
-
-.announcements, .trending {
-    border: 1px solid black;
-    border-radius: 8px;
     padding: 8px;
 }
